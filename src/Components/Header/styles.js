@@ -12,7 +12,7 @@ export const Menu = styled.header `
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        color: var(--second);
+        color: var(--primary);
     }
 
     ul{
@@ -21,6 +21,10 @@ export const Menu = styled.header `
 
     li{
         margin: 0px 10px;
+    }
+
+    a{
+        color: inherit;
     }
 
     @media( max-width: 600px){

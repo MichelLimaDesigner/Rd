@@ -1,7 +1,7 @@
 import React from 'react';
 import { Menu } from './styles';
 import { Container } from '../../generalComponents';
-import Logo from '../../assests/rd.png';
+import Logo from '../../assets/logos/rd.png';
 
 export default function Header(){
     return(
@@ -13,11 +13,11 @@ export default function Header(){
                     </figure>
 
                     <ul>
-                        <li> HTML5 </li>
-                        <li> CSS3 </li>
-                        <li> JAVASCRIPT </li>
-                        <li> REACT </li>
-                        <li> REDUX </li>
+                        <li> <a href="/"> HTML5 </a></li>
+                        <li> <a href=""> CSS3 </a></li>
+                        <li>  <a href=""> JAVASCRIPT </a></li>
+                        <li> <a href=""> REACT </a></li>
+                        <li>  <a href=""> REDUX </a></li>
                     </ul>
                 </nav>
             </Container>

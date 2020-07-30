@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
 * {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Helvetica, sans-serif, arial;
 }
 
 body,
@@ -23,8 +23,8 @@ h6 {
     list-style: none;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+body {
+    background-image: url('assets/bg/bg.jpg');
 }
 
 :root {
