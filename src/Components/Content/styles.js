@@ -10,6 +10,10 @@ export const Title = styled.h1 `
     strong{
         font-weight: 800;
     }
+
+    @media(max-width: 600px){
+        font-size: 2em;
+    }
 `
 
 export const FontText = styled.p `
@@ -18,6 +22,10 @@ export const FontText = styled.p `
     font-weight: 300;
     margin: 30px auto 0px auto;
     text-align: center;
+
+    @media(max-width: 600px){
+        font-size: 1.2em;
+    }
 `
 
 export const ColorsText = styled.div `
