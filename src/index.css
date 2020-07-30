@@ -22,15 +22,3 @@ h6 {
     text-decoration: none;
     list-style: none;
 }
-
-body {
-    background-image: url('assets/bg/bg.jpg');
-}
-
-:root {
-    --primary: #007f56;
-    --second: #868686;
-    --red: #fe9481;
-    --yellow: #fcda92;
-    --purple: #9c8cb9;
-}

@@ -31,11 +31,10 @@ export const CardsCotainer = styled.div `
             font-weight: 300;
             margin: 10px auto;
         }
+    }
 
-    
     @media(max-width: 600px){
         flex-direction: column;
-        }
     }
 
     .red{
@@ -83,7 +82,7 @@ export const CardContent = styled.div `
     }
 
     .lightbox{
-        background: rgba(0, 0, 0, 0.6);
+        background: rgba(0, 0, 0, 0.8);
         display: none;
         height: 100vh;
         left: 0;

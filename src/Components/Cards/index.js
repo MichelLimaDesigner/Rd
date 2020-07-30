@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { CardsCotainer, CardContent } from './styles';
 import { Container } from '../../generalComponents';
+import ThemeSwitcher from './ThemeSwitcher';
 
 import Desktop from '../../assets/cards/desktop.png';
 import Tablet from '../../assets/cards/tablet.png';
@@ -61,7 +62,7 @@ export default class Cards extends Component {
     
                         <div className="card__body">
                             <p> Quando precionado o botão <b> alterar tema </b> modifique o tema do site para blackfriday a seu gosto. </p>
-                            <button className="purple"> Alterar tema </button>
+                            <ThemeSwitcher toggleTheme={this.props.toggleTheme} />
                         </div>
                     </div>
                 </CardsCotainer>
