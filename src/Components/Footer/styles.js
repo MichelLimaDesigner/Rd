@@ -36,11 +36,11 @@ export const FooterContent = styled.footer `
     }
 
     @media(max-width: 600px){
-        text-align: center;
         align-items: center;
-        justify-content: center;
         flex-direction: column;
+        justify-content: center;
         margin-bottom: 50px;
+        text-align: center;
     }
 
 

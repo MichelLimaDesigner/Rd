@@ -28,12 +28,12 @@ export const FontText = styled.p `
     }
 `
 
-export const ColorsText = styled.div `
+export const ColorsText = styled.span `
     border-radius: 50%;
-    height: 15px;
-    width: 15px;
     display: inline-block;
+    height: 15px;
     margin: 3px;
+    width: 15px;
 
     &.primary{
         background: var(--primary);

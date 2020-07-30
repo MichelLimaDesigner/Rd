@@ -6,10 +6,6 @@ export const CardsCotainer = styled.div `
     margin: 30px auto;
     width: 100%;
 
-    @media(max-width: 600px){
-        flex-direction: column;
-    }
-
     .card{
         margin: 20px auto;
         width: 30%;
@@ -34,6 +30,11 @@ export const CardsCotainer = styled.div `
             font-size: 1.6em;
             font-weight: 300;
             margin: 10px auto;
+        }
+
+    
+    @media(max-width: 600px){
+        flex-direction: column;
         }
     }
 
@@ -67,6 +68,45 @@ export const CardsCotainer = styled.div `
             font-size: 1em;
             margin: 10px 0px;
             padding: 10px;
+        }
+    }
+`
+
+export const CardContent = styled.div `
+    .modal{
+        background: white;
+        border-radius: 5px;
+        color: var(--second);
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .lightbox{
+        background: rgba(0, 0, 0, 0.6);
+        display: none;
+        height: 100vh;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 99;
+    }
+
+    @media(max-width: 800px){
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        .modal{
+            top: 40%;
+            position: fixed;
+            width: 90%;
+            z-index: 999;
+        }
+
+        .lightbox{
+            display: block;
         }
     }
 `
